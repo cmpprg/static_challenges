@@ -11,8 +11,13 @@ body {
   margin-left: 50%;
 }
 
+.main {
+  overflow: auto;
+  height: 100%;
+}
+
 .title-bar {
-  background-color: black;
+  background-color: rgb(10,10,10);
   height: 20px;
   padding: 20px;
   padding-right: 20px;
@@ -55,5 +60,32 @@ body {
 
 .body-text p {
   margin-bottom: 10px;
+  text-align: justify;
+  font-size: 13px;
+}
+
+.picture-div {
+  padding: 15px;
+  font-size: 13px;
+}
+
+.picture-div div {
+  display: inline-block;
+  width: 33%;
+}
+
+.picture-div img {
+  border: 1px solid orange;
+  height: 225px;
+  width: 95%;
+}
+
+.footer-container {
+  margin-top:-6%;
+  background-color: rgb(10,10,10);
+  height: 6%;
+  padding:25px 15px;
+  padding-bottom: 0px;
+  font-size:13px;
   text-align: justify;
 }
