@@ -1,0 +1,59 @@
+html {
+  background-image: url(https://github.com/cmpprg/static_challenges/blob/master/images/1.jpg?raw=true);
+  background-size:  100%;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: white;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 50%;
+}
+
+.title-bar {
+  background-color: black;
+  height: 20px;
+  padding: 20px;
+  padding-right: 20px;
+}
+
+#title {
+  display: inline-block;
+  font-size: 20px;
+}
+
+#login {
+  font-size: 15px;
+  float: right;
+  padding-top: 10px;
+}
+
+.sub-bar {
+  background-color: #a14a10;
+  height: 25px;
+  text-align:center;
+}
+
+.sub-bar p {
+  display: inline-block;
+  float: left;
+  font-size: 14px;
+  width: 33.3%;
+  padding-top: 5px;
+}
+
+.body-text {
+  margin: 25px;
+}
+
+.body-text h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.body-text p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
